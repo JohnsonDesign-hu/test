@@ -1,0 +1,15 @@
+{
+  "id" : "https://JohnsonDesign-hu.github.io/test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in JohnsonDesign-hu/test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://JohnsonDesign-hu.github.io/test/manifests/manifest.json",
+    "label" : {
+      "none" : [ "1715312760980@ 2x" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
