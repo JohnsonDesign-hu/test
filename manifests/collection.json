@@ -17,5 +17,11 @@
       "none" : [ "1715312760980@ 2x" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://JohnsonDesign-hu.github.io/test/manifests/manifest_2.json",
+    "label" : {
+      "none" : [ "1715312760980@ 2x" ]
+    },
+    "type" : "Manifest"
   } ]
 }
