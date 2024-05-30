@@ -1,0 +1,259 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://JohnsonDesign-hu.github.io/test/manifests/manifest_2.json",
+  "type" : "Manifest",
+  "label" : {
+    "none" : [ "1715312760980@ 2x" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "identifier" ]
+    },
+    "value" : {
+      "none" : [ "1715312760980-2x" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "mediatype" ]
+    },
+    "value" : {
+      "none" : [ "image" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "collection" ]
+    },
+    "value" : {
+      "none" : [ "opensource_image", "test_collection" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "scanner" ]
+    },
+    "value" : {
+      "none" : [ "Internet Archive HTML5 Uploader 1.7.0" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "subject" ]
+    },
+    "value" : {
+      "none" : [ "test" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "title" ]
+    },
+    "value" : {
+      "none" : [ "1715312760980@ 2x" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "addeddate" ]
+    },
+    "value" : {
+      "none" : [ "2024-05-28 02:05:08" ]
+    }
+  } ],
+  "summary" : {
+    "none" : [ "test" ]
+  },
+  "provider" : [ {
+    "id" : "https://archive.org",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "The Internet Archive" ]
+    },
+    "homepage" : [ {
+      "id" : "https://archive.org",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : [ "Internet Archive Homepage" ]
+      }
+    } ],
+    "logo" : [ {
+      "id" : "https://archive.org/images/glogo.png",
+      "type" : "Image",
+      "format" : "image/png",
+      "height" : 79,
+      "width" : 79
+    } ]
+  } ],
+  "homepage" : [ {
+    "id" : "https://archive.org/details/1715312760980-2x",
+    "type" : "Text",
+    "format" : "text/html",
+    "label" : {
+      "en" : [ "Item Page on Internet Archive" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://iiif.archive.org/iiif/1715312760980-2x/canvas",
+    "type" : "Canvas",
+    "height" : 506,
+    "width" : 718,
+    "label" : {
+      "none" : [ "1" ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.archive.org/iiif/1715312760980-2x/annotationPage/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.archive.org/iiif/1715312760980-2x/annotation/1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.archive.org/iiif/1715312760980-2x/canvas",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/3/1715312760980-2x%2F1715312760980@2x.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 506,
+          "width" : 718,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "id" : "https://iiif.archive.org/image/iiif/3/1715312760980-2x%2F1715312760980@2x.jpg",
+            "type" : "ImageService3",
+            "protocol" : "http://iiif.io/api/image",
+            "profile" : "level2",
+            "width" : 718,
+            "height" : 506,
+            "maxArea" : 363308,
+            "sizes" : [ {
+              "width" : 180,
+              "height" : 127
+            }, {
+              "width" : 359,
+              "height" : 253
+            }, {
+              "width" : 718,
+              "height" : 506
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 506,
+              "scaleFactors" : [ 1, 2, 4 ]
+            } ],
+            "extraQualities" : [ "bitonal", "color", "gray" ],
+            "extraFormats" : [ "tif", "gif" ],
+            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/8eb1abcb-b7e8-43ec-956d-15cc58cd44bd",
+    "type" : "Canvas",
+    "height" : 667,
+    "width" : 1000,
+    "label" : {
+      "en" : [ "3" ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/8eb1abcb-b7e8-43ec-956d-15cc58cd44bd/annotation-page/b9353190-5c19-4b8a-a538-20f14b010277",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/annotation/fb2e5ea6-6d59-487d-acd2-bd528c8696be",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/8eb1abcb-b7e8-43ec-956d-15cc58cd44bd",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/3/04eadd-2b-7dd-4-43fc-af-3d-cff-948811986-balloons%2F04eadd2b-7dd4-43fc-af3d-cff948811986_balloons.jpeg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 667,
+          "width" : 1000,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "id" : "https://iiif.archive.org/image/iiif/3/04eadd-2b-7dd-4-43fc-af-3d-cff-948811986-balloons%2F04eadd2b-7dd4-43fc-af3d-cff948811986_balloons.jpeg",
+            "type" : "ImageService3",
+            "protocol" : "http://iiif.io/api/image",
+            "profile" : "level2",
+            "width" : 1000,
+            "height" : 667,
+            "maxArea" : 667000,
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 83
+            }, {
+              "width" : 250,
+              "height" : 167
+            }, {
+              "width" : 500,
+              "height" : 334
+            }, {
+              "width" : 1000,
+              "height" : 667
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8 ]
+            } ],
+            "extraQualities" : [ "bitonal", "color", "gray" ],
+            "extraFormats" : [ "tif", "gif" ],
+            "extraFeatures" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeByConfinedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/7937f1f2-4709-4b49-a06d-8a15e9e2694f",
+    "type" : "Canvas",
+    "height" : 1440,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "2" ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/7937f1f2-4709-4b49-a06d-8a15e9e2694f/annotation-page/927d2a13-324a-4867-baeb-903fcc13dfc6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/annotation/24f7de89-0873-4c99-baf4-6b1f9cb5e19f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.archive.org/iiif/1715312760980-2x/manifest.json/canvas/7937f1f2-4709-4b49-a06d-8a15e9e2694f",
+        "body" : {
+          "id" : "https://JohnsonDesign-hu.github.io/test/images/banner_en/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1440,
+          "width" : 4032,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 126,
+              "height" : 45
+            }, {
+              "width" : 252,
+              "height" : 90
+            }, {
+              "width" : 504,
+              "height" : 180
+            }, {
+              "width" : 1008,
+              "height" : 360
+            }, {
+              "width" : 2016,
+              "height" : 720
+            }, {
+              "width" : 4032,
+              "height" : 1440
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4032,
+            "@id" : "https://JohnsonDesign-hu.github.io/test/images/banner_en",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1440,
+            "id" : "https://JohnsonDesign-hu.github.io/test/images/banner_en"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
