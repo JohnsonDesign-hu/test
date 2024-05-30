@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 21,
+    "height" : 14
+  }, {
+    "width" : 42,
+    "height" : 28
+  }, {
+    "width" : 83,
+    "height" : 55
+  }, {
+    "width" : 166,
+    "height" : 109
+  }, {
+    "width" : 332,
+    "height" : 217
+  }, {
+    "width" : 664,
+    "height" : 434
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 664,
+  "@id" : "https://JohnsonDesign-hu.github.io/test/images/img",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 434
+}
