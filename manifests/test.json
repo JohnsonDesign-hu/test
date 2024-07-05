@@ -1,0 +1,68 @@
+{
+  "@id" : "https://JohnsonDesign-hu.github.io/test/manifests/test.json",
+  "@type" : "sc:Manifest",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "rendering" : {
+    "@id" : "https://tnua.openmuseum.tw/muse/digi_object/81a8582973ece5451aa41a17d13d083b#712",
+    "label" : "關渡藝術節開幕式 「舞龍表演」",
+    "format" : "text/html"
+  },
+  "related" : {
+    "@id" : "https://tnua.openmuseum.tw/muse/digi_object/81a8582973ece5451aa41a17d13d083b#712",
+    "format" : "text/html"
+  },
+  "logo" : {
+    "@id" : "https://tnua.openmuseum.tw/files/muse_tnua/default_images/TNUA%20OpenMuseum%20logo.png",
+    "@type" : "dctypes:Image",
+    "width" : null,
+    "height" : null
+  },
+  "attribution" : "Service Provided by https://openmuseum.tw/ , Repository:國立臺北藝術大學圖書館校史發展組.",
+  "label" : "File:關渡師部隊贊助光采.jpg from 關渡藝術節開幕式 「舞龍表演」",
+  "license" : "https://creativecommons.org/licenses/by-nc-nd/3.0/tw/",
+  "description" : "圖片取自《1994關渡藝術節》手冊，1994年關渡藝術節在關渡獅部隊的贊助演出下拉開序幕。",
+  "metadata" : [ {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "開放博物館",
+      "@language" : "zh-TW"
+    }, {
+      "@value" : "OpenMmuseum",
+      "@language" : "en"
+    } ]
+  }, {
+    "label" : "主題",
+    "value" : "關渡藝術節\r\n"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://tnua.openmuseum.tw/muse/digi_object/81a8582973ece5451aa41a17d13d083b#712",
+    "@type" : "sc:Sequence",
+    "label" : "sequences of File:關渡師部隊贊助光采.jpg from 關渡藝術節開幕式 「舞龍表演」",
+    "canvases" : [ {
+      "@id" : "https://tnua.openmuseum.tw/muse_iiif/41a6fddcd5e1927ef9791f48dabbbbec",
+      "@type" : "sc:Canvas",
+      "label" : "開幕 舞龍表演",
+      "width" : 2126,
+      "height" : 1407,
+      "images" : [ {
+        "on" : "https://tnua.openmuseum.tw/muse_iiif/41a6fddcd5e1927ef9791f48dabbbbec",
+        "@id" : "https://tnua.openmuseum.tw/muse_iiif/41a6fddcd5e1927ef9791f48dabbbbec",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "resource" : {
+          "@id" : "https://tnua.openmuseum.tw/muse_iiif/41a6fddcd5e1927ef9791f48dabbbbec",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2126,
+          "height" : 1407,
+          "service" : {
+            "@id" : "https://tnua.openmuseum.tw/muse_iiif/41a6fddcd5e1927ef9791f48dabbbbec",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "profile" : "http://iiif.io/api/image/2/level1.json"
+          }
+        }
+      } ]
+    } ]
+  } ]
+}
