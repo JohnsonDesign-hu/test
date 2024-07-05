@@ -23,5 +23,9 @@
       "none" : [ "1715312760980@ 2x" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://JohnsonDesign-hu.github.io/test/manifests/test.json",
+    "label" : "File:關渡師部隊贊助光采.jpg from 關渡藝術節開幕式 「舞龍表演」"
   } ]
 }
